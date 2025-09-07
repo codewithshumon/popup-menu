@@ -1,0 +1,79 @@
+{
+  "name": "@codeshumon/popup-menu",
+  "version": "1.0.1",
+  "description": "A lightweight, customizable popup menu component for React with built-in CSS styling and TypeScript support. Features automatic positioning, smooth animations, and responsive design for modern web applications.",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/index.d.ts",
+      "style": "./dist/style.css"
+    },
+    "./style.css": "./dist/style.css",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build:types": "tsc --emitDeclarationOnly --declaration --outDir dist/types",
+    "build:js": "rollup -c",
+    "build": "npm run clean && npm run build:types && npm run build:js && cp dist/types/index.d.ts dist/index.d.ts && cp src/PopupMenu.css dist/style.css",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "rollup": "^4.21.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "react",
+    "popup",
+    "menu",
+    "dropdown",
+    "context-menu",
+    "popover",
+    "ui-component",
+    "react-component",
+    "typescript",
+    "responsive",
+    "animated",
+    "lightweight",
+    "customizable",
+    "nextjs",
+    "tailwind",
+    "css",
+    "built-in-css",
+    "positioning",
+    "auto-positioning",
+    "ui",
+    "ux",
+    "web-components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithshumon/popup-menu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codewithshumon/popup-menu/issues"
+  },
+  "homepage": "https://github.com/codewithshumon/popup-menu#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
