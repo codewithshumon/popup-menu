@@ -15,8 +15,8 @@ A lightweight, customizable React popup menu component with automatic positionin
 </a>
 </p>
 
-<h2 align="center">Popup Menu Package Tutorial Video</h2>
-<p align="center">Watch how to use the popup-menu package in action</p>
+<h2 align="center">React Popup Menu Tutorial Video</h2>
+<h4 align="center">Watch how to use the popup-menu package in action</h4>
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VqWXTRMDz9g">
