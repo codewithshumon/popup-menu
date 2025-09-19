@@ -1,6 +1,6 @@
 {
-  "name": "@codewithshumon/popup-menu",
-  "version": "2.0.29",
+  "name": "@codeshumon/popup-menu",
+  "version": "1.0.6",
   "description": "A lightweight, customizable popup menu component for React with built-in CSS styling and TypeScript support. Features automatic positioning, smooth animations, and responsive design for modern web applications.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
