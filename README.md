@@ -20,7 +20,11 @@ A lightweight, customizable React popup menu component with automatic positionin
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VqWXTRMDz9g">
-    <img src="https://img.youtube.com/vi/VqWXTRMDz9g/0.jpg" alt="Popup Menu Demo">
+    <picture>
+      <source srcset="https://img.youtube.com/vi/VqWXTRMDz9g/maxresdefault.jpg" media="(min-width: 640px)">
+      <img src="https://img.youtube.com/vi/VqWXTRMDz9g/hqdefault.jpg" alt="Popup Menu Demo" 
+           style="width:100%; max-width:560px; aspect-ratio:16/9; object-fit:cover;">
+    </picture>
   </a>
 </p>
 
