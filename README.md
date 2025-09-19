@@ -15,6 +15,28 @@ A lightweight, customizable React popup menu component with automatic positionin
 </a>
 </p>
 
+<h2 align="center">Demo Video</h2>
+<p align="center">Watch how to use the popup-menu package in action</p>
+
+<div align="center">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/VqWXTRMDz9g?autoplay=1&mute=1&loop=1&playlist=VqWXTRMDz9g" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VqWXTRMDz9g">
+    <img src="https://img.youtube.com/vi/VqWXTRMDz9g/0.jpg" alt="Popup Menu Demo" width="560">
+  </a>
+</p>
+
+<p align="center"><em>Click the image above to watch the video on YouTube</em></p>
+
 <h2>Table of Contents</h2>
 <ul>
 <li><a href="#features-">Features ✨</a></li>
